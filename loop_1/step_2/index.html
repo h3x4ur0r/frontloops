@@ -4,20 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
     <title>Step_2</title>
   </head>
   <body>
     <div class="container">
       <form action="">
-        <input type="text" placeholder="Enter tab index" class="index" />
-        <button class="changeTab">Change tab</button>
+        <input type="number" placeholder="Enter tab index" id="index" />
+        <button id="changeTab">Change tab</button>
       </form>
-      <input type="radio" class="tab1">
-      <label for="tab1">POSITIVE</label>
-      <input type="radio" class="tab2">
-      <label for="tab2">NEGATIVE</label>
-      <input type="radio" class="tab3">
-      <label for="tab3">NEUTRAL</label>
+      <input type="radio" name="tab" id="positive" checked/>
+      <label for="positive">POSITIVE</label>
+
+      <input type="radio" name="tab" id="negative" class="tab2" />
+      <label for="negative">NEGATIVE</label>
+
+      <input type="radio" name="tab" id="neutral" class="tab3" />
+      <label for="neutral">NEUTRAL</label>
+
+      <div class="tab" id="tab1">
+        <p class="tab1-content">
+          Positive content
+        </p>
+      </div>
+      <div class="tab" id="tab2">
+        <p class="tab2-content">
+          Negative content
+        </p>
+      </div>
+      <div class="tab" id="tab3">
+        <p class="tab3-content">
+          Neutral content
+        </p>
+      </div>
     </div>
   </body>
 </html>

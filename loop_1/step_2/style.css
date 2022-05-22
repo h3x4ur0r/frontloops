@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +8,72 @@
 }
 
 body {
-    
+    background-color: rgb(70, 19, 70);
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: rgb(170, 105, 170);
+    padding: 3rem 4rem;
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 4px;
+}
+
+#index {
+    background-color: rgb(170, 105, 170);
+    outline: none;
+    margin-bottom: 1rem ;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 4px;
+    padding-right: 2rem;
+}
+
+#index::placeholder {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+#changeTab {
+    background-color: rgb(70, 19, 70);
+    color: white;
+    margin-left: 0.5rem;
+    border: none;
+    border-radius: 2px;
+    padding: 4px;
+}
+
+input[type="radio"]:checked + label {
+    color: white;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.6rem;
+}
+
+label[for="positive"] {
+    padding-left: 0;
+}
+
+.tab {
+    margin-top: 1rem;
 }
