@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(121, 155, 206);
+  color: rgb(167, 172, 172);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  border-radius: 4px;
+  padding: 1.5rem;
+  display: flex;
+  text-align: center;
+  box-shadow: 0 10px 15px 1px rgba(0, 0, 0, 0.3);
+}
+
+.pricingTable {
+  padding-inline: 4rem;
+  padding-block: 1.5rem;
+}
+
+#pricingTable1 {
+  padding-inline: 5.5rem;
+}
+
+.pricingTable:hover {
+  background-color: rgba(167, 172, 172, 0.1);
+  cursor: pointer;
+}
+
+.images {
+  margin-bottom: 2.5rem;
+  height: 4.5rem;
+}
+
+.devices {
+  color: rgb(77, 103, 206);
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.content {
+  margin-bottom: 1.5rem;
+}
+
+.cost {
+  color: rgb(77, 103, 206);
+}
+
+.price {
+  font-size: 2rem;
+}
+
+sup {
+  font-size: 1rem;
+}
