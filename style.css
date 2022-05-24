@@ -23,12 +23,6 @@ body {
     font-weight: 500;
 }
 
-.links {
-
-}
-
-a {
-    border: greenyellow 2px solid;
-    color: white;
-    text-decoration: none;
+#listings {
+    list-style: disc inside;
 }
